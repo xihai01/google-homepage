@@ -16,6 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 }
 
 #logo, #form, #button, #en-fr {
@@ -23,22 +25,101 @@ body {
 }
 
 #logo {
-  top: 250px;
+  top: 150px;
 }
 
 #form {
-  top: 370px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 270px;
+}
+
+#search {
+  width: 300px;
+  border-radius: 25px;
 }
 
 #button {
-  top: 420px;
+  top: 320px;
 }
 
 #en-fr {
-  top: 500px;
+  top: 400px;
 }
 
 #logo button {
+  border: none;
+  background: none;
   position: relative;
   bottom: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  height: 10%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  height: 20%;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.btm-2 {
+  top: 50%;
+}
+
+.btm-1 {
+  top: 25%;
+}
+
+#region {
+  padding: 15px 20px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: rgba(0,0,0,.54);
+}
+
+ header a {
+  color: #222;
+  margin: 0 5px;
+}
+
+header a:hover, footer a:hover {
+  text-decoration: underline;
+}
+
+#top-dropdown {
+  color: #5f6368;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+#header-icons {
+  position: relative;
+  top: 12%;
+}
+
+.btm-1 a {
+  color: #70757a;
+}
+
+.btm-2 a {
+  color: #70757a;
+}
+
+#nav-2 {
+  position: relative;
+  left: 10%;
 }
