@@ -127,13 +127,13 @@ header a:hover, footer a:hover {
   justify-content: flex-end;
   position: relative;
   width: 50%;
-  top: 12%;
+  top: 12px;
 }
 
 #cool {
   position: relative;
   width: 50%;
-  top: 26%;
+  top: 21px;
 }
 
 #nav-2 a {
