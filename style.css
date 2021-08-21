@@ -130,9 +130,10 @@ header a:hover, footer a:hover {
   top: 12%;
 }
 
-#nav-1 {
+#cool {
   position: relative;
-  top: 30%;
+  width: 50%;
+  top: 26%;
 }
 
 #nav-2 a {
