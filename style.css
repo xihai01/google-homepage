@@ -18,6 +18,7 @@ body {
   justify-content: space-between;
   font-size: 14px;
   font-family: Arial, sans-serif;
+  padding-left: 0.1%;
 }
 
 #logo, #form, #button, #en-fr {
@@ -36,16 +37,27 @@ body {
 }
 
 #search {
-  width: 300px;
+  width: 100%;
   border-radius: 25px;
 }
 
 #button {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
   top: 320px;
 }
 
 #en-fr {
   top: 400px;
+}
+
+#en-fr a {
+  color: #1a0dab;
+}
+
+#en-fr a:hover {
+  text-decoration: underline;
 }
 
 #logo button {
@@ -57,9 +69,11 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
   height: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 footer {
@@ -99,6 +113,8 @@ header a:hover, footer a:hover {
 }
 
 #top-dropdown {
+  position: relative;
+  top: 15%;
   color: #5f6368;
 }
 
@@ -107,8 +123,21 @@ header a:hover, footer a:hover {
 }
 
 #header-icons {
+  display: flex;
+  justify-content: flex-end;
   position: relative;
+  width: 50%;
   top: 12%;
+}
+
+#nav-1 {
+  position: relative;
+  top: 30%;
+}
+
+#nav-2 a {
+  position: relative;
+  top: 27%;
 }
 
 .btm-1 a {
@@ -119,7 +148,57 @@ header a:hover, footer a:hover {
   color: #70757a;
 }
 
-#nav-2 {
-  position: relative;
-  left: 10%;
+label {
+  display: inline;
+  position: absolute;
+}
+
+#form div {
+  width: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    overflow: hidden;
+  }
+
+  #form {
+    width: 600px;
+  }
+
+  #button {
+    width: 400px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+  }
+
+  footer div {
+    width: 50%;
+    height: 20%;
+  }
+
+  .btm-2 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 25%;
+  }
+
+  .btm-2 a {
+    margin-right: 5%;
+  }
+
+  .btm-1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+  }
+
+  .btm-1 a {
+    margin-right: 5%;
+  }
 }

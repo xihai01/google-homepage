@@ -12,11 +12,11 @@
         <a href="#">About</a>
         <a href="#">Store</a>
       </nav>
-      <nav id="nav-2">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-      </nav>
       <div id="header-icons">
+        <nav id="nav-2">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+        </nav>
         <a href="#">
           <img id="top-dropdown" alt="More options" src="img/apps_black_24dp.svg">
         </a>
@@ -31,16 +31,23 @@
         <button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAoklEQVR42mNgSPvPQAZ2AOKZQPwAimdCxRBqyDT0DBD/R8NnUAwnw+CZWAyF4ZmUGPwAj8EPBp3BzkB8mdSgwBfTMkC8EsmAW8RGHq6YPgu14DOUD6IrgNiF2OSGL6ZheDUQyxEdbEREyCcgdiU5kkmKaTIMxhcUlylxMa7Iu0VpGONKbqDYL6ckVRDCZKdjmua84VkI0bQ8plkNQrM6jygMAH2nSPYgx5jtAAAAAElFTkSuQmCC"></button>
       </div>
       <div id="form">
-        <form method="POST">
-          <input type="text" name="search" id="search" >
-        </form>
+        <div>
+          <label for="search">
+            <span>
+            <img alt="search" src="img/search_black_24dp.svg">
+            </span>
+          </label>
+          <span>
+            <input type="text" name="search" id="search" >
+          </span>
+        </div>
       </div>
       <div id="button">
         <button class="button" type="submit">Google Search</button>
         <button class="button" type="submit">I'm Feeling Lucky</button>
       </div>
       <div id="en-fr">
-        <p>Google offered in: <a href="#">Francais</a></p>
+        <p>Google offered in: <a href="#">Français</a></p>
       </div>
     </main>
     <div id="region">
